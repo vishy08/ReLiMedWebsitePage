@@ -1,15 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,400&family=Open+Sans:wght@300;400&display=swap');
 
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 .header {
-    min-height: 100vh;
     width: 100%;
-    background-image: linear-
-    gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/reli123-logo.jpeg);
-    background-position: center;
-    background-size: cover;
+    background-color:azure;
+}
+.header .text-box {
+    border: green;
+    border-style: solid;
+    padding: 0%;
+}
+.bodies nav{
+    display:inline;
+    justify-content: space-between;
+    align-items: center;
+}
+.bodies .nav-links {
+    background-color: rgb(124, 178, 216);
+    width:110%;
+    border: rgba(13, 13, 76, 0.452);
+    border-style: solid;
+    border-width: 1px;
     position: relative;
+    top: 5px;
+}
+.bodies .nav-links ul li{
+    list-style: none;
+    padding: 2px 5px;
+    position: relative;
+}
+.bodies .nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+.bodies .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+}
+.bodies .nav-links ul li:hover::after{
+    width:100%;
+}
+div{
+    padding:1%;
+    display:flex;
+    position:relative;
+    align-items: center;
+}
+div img{
+    width:75px;
+    padding-left: 5%;
+}
+h1 {
+    text-align:center;
+    padding-left:11px;
+    font-size:20px;
+}
+.bodies .nav-links ul li b a{
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: darkblue;
+}
+.bodies .page {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align:left;
+    top:-165px;
+    left: 45px;
+}
+.bodies{
+    width:100%;
+    display:inline-flex;
+    background-color:azure;
 }
